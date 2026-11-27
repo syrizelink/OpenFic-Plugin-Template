@@ -1,0 +1,5 @@
+{
+  "package": {
+    "include": ["plugin.json", "main.py", "README.md"]
+  }
+}

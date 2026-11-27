@@ -1,0 +1,19 @@
+{
+  "id": "openfic-example",
+  "name": "OpenFic 示例插件",
+  "version": "0.1.0",
+  "api_version": 1,
+  "description": "在扩展侧栏试用原生面板，并保存示例状态。",
+  "entry": "main.py",
+  "capabilities": ["ui", "storage"],
+  "views": [
+    {
+      "id": "example",
+      "title": "示例插件",
+      "slot": "sidebar.extensions",
+      "renderer": "declarative",
+      "render": "example.render",
+      "action": "example.action"
+    }
+  ]
+}
