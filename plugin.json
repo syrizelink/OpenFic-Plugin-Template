@@ -4,7 +4,7 @@
   "version": "0.1.0",
   "api_version": 1,
   "description": "在扩展侧栏试用原生面板，并保存示例状态。",
-  "entry": "main.py",
+  "entry": "src/main.py",
   "capabilities": ["ui", "storage"],
   "views": [
     {
